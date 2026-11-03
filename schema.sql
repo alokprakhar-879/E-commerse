@@ -230,3 +230,4 @@ INSERT INTO payments (id, order_id, payment_status, payment_method, amount, tran
 (5, 5, 'REFUNDED', 'CREDIT_CARD', 119.99, 'TXN-INIT-005', CURRENT_TIMESTAMP - INTERVAL '6 hours');
 
 ALTER SEQUENCE payments_id_seq RESTART WITH 6;
+
